@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Your description goes here">
+<meta name="keywords" content="one, two, three">
+<title>Lista de Tarefas</title>
+<link rel="stylesheet" href="main.css">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans:800,800" rel="stylesheet">
+</head>
+
+<body>
+	<div id="container">
+		<header></header>
+		<section id="main">
+			<h1>Lista de tarefas</h1>
+
+			<form id="formLista" class="form-add-todo">
+
+			<input type="text" id="new-todo-item" class="new-todo-item" name="todo" placeholder="Adicionando uma tarefa." />
+			<input type="submit" id="add-todo-item" class="add-todo-item" value="+" />
+
+			</form>
+
+			<section>
+				<ul id="listContainer" class="todo-list">
+				</ul>
+				<button id="clearBtn" class="clearBtn" type="button" name="button"> Limpar</button>
+				<button id="clearDone" class="clearBtn" type="button" name="button"> Limpar listas</button>
+				<h3></h3>
+			</section>
+		</section>
+	</div>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
+
+
